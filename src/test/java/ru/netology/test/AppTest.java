@@ -23,7 +23,7 @@ public class AppTest {
 
     @Test
     @DisplayName("Should successful plan meeting")
-    public void shouldBeSuccessfully() {
+    public void shouldBeSuccessful() {
         var validUser = DataGenerator.Registration.generateUser("ru");
         var daysAddtoFirst = 4;
         var firstMeeting = DataGenerator.generateDate(daysAddtoFirst);
